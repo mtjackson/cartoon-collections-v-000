@@ -14,7 +14,7 @@ end
 
 def long_planeteer_calls(array)
   array.collect do |call|
-    call.split(' ')
+    call_length = call.split(' ')
     if call.split(' ').length > 4
       return true
     else
