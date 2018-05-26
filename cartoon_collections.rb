@@ -2,6 +2,7 @@ def roll_call_dwarves(array)
   i = 1
   array.collect do | dwarf |
     puts "#{i}. #{dwarf}"
+    i += 1
   end
 end
 
