@@ -1,5 +1,5 @@
 def roll_call_dwarves(array)
-  array.coolect do | dwarf |
+  array.collect do | dwarf |
     puts "#{dwarf}"
   end
 end
