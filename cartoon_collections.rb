@@ -1,6 +1,6 @@
 def roll_call_dwarves(array)
   array.collect do | dwarf |
-    puts "#{dwarf}"
+    puts "1. #{dwarf}"
   end
 end
 
