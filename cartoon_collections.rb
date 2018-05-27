@@ -19,5 +19,7 @@ def find_the_cheese(array)
   array.detect do |maybe_cheese|
     i = 0
     cheese_types.collect do |cheeses|
+      cheese == maybe_cheese
+      i+=1
     maybe_cheese == cheese
 end
