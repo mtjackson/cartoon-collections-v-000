@@ -17,12 +17,6 @@ end
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   array.detect do |maybe_cheese|
-    i = 0
-    cheese_types.collect do |cheeses|
-      while i < cheese_types.length
-        cheeses == maybe_cheese
-        i+=1
-      end
-    end
+    maybe_cheese == cheese_types[0..2]
   end
 end
