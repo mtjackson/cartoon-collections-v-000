@@ -19,6 +19,7 @@ def find_the_cheese(array)
   array.detect do |maybe_cheese|
     i = 0
     cheese_types.collect do |cheeses|
+      while i < cheese_types.length
       cheese == maybe_cheese
       i+=1
     maybe_cheese == cheese
