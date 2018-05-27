@@ -20,7 +20,10 @@ def find_the_cheese(array)
     i = 0
     cheese_types.collect do |cheeses|
       while i < cheese_types.length
-      cheese == maybe_cheese
-      i+=1
+        cheese == maybe_cheese
+        i+=1
+      end
+    end
+  end
     maybe_cheese == cheese
 end
