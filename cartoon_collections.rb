@@ -16,13 +16,13 @@ def long_planeteer_calls(array)
   array.collect do |call|
     if call.split.length > 4
       return true
-    elsif call_length.length <= 4
+    else
       return false
     end
   end
 end
 
-def find_the_cheese# code an argument here
+def find_the_cheese(array)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
