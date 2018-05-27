@@ -18,7 +18,7 @@ def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   i = 0
   array.collect do |maybe_cheese|
-    if maybe_cheese ==
+    if maybe_cheese == cheese_types[0..2]
       return maybe_cheese
     end
     i += 1
