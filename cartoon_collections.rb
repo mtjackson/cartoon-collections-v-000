@@ -22,6 +22,6 @@ def find_the_cheese(array)
       return maybe_cheese
     end
     i += 1
-    nil
   end
+  nil
 end
